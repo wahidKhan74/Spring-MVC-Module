@@ -11,7 +11,7 @@
           http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!-- Enable @Controller annotation scanning -->
-    <context:component-scan base-package="com.webm.app.controller" />
+    <context:component-scan base-package="com.webm.app" />
 
     <!-- Enable Spring MVC annotations (@GetMapping, @PostMapping, etc.) -->
     <mvc:annotation-driven />
